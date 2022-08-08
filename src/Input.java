@@ -13,7 +13,7 @@ public class Input {
 		this.file = new File(path);
 		try {
 			this.sc = new Scanner(this.file, "utf-8");  //scanner는 file을 바라보고 있다.
-			System.out.println("File founded");
+//			System.out.println("File founded");
 		} catch (FileNotFoundException e) {
 			System.out.println("File Not Found");
 		}
